@@ -124,7 +124,7 @@ self.addEventListener('sync', event => {
             }
 
             let postPromises = usuarios.map(user =>
-              fetch('https://backend-be7l.onrender.com/auth/register', {
+              fetch('https://backend-5it1.onrender.com/auth/register', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(user)
