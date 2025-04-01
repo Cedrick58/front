@@ -11,6 +11,9 @@ const HomePage = () => {
       <div style={styles.buttonContainer}>
         <Link to="/login" style={styles.button}>Iniciar sesión</Link>
         <Link to="/register" style={styles.button}>Registrarse</Link>
+        <img src="/public/icons/Dark.jpg" alt="Descripción" />
+
+
       </div>
     </div>
   );
@@ -58,6 +61,12 @@ const styles = {
     fontSize: '1rem',
     fontWeight: 'bold',
     transition: 'background-color 0.3s ease',
+  },
+  image: {
+    width: '200px', // Ajusta el tamaño
+    height: 'auto', // Mantiene la proporción
+    marginBottom: '20px', // Espacio debajo de la imagen
+    borderRadius: '10px', // Bordes redondeados opcionales
   },
 };
 
