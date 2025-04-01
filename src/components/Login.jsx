@@ -92,7 +92,7 @@ const styles = {
     fontWeight: 'bold',
   },
   input: {
-    width: '100%',
+    width: '90%',
     padding: '8px',
     marginBottom: '15px',
     border: '1px solid #bbb',
