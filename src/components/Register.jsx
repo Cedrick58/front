@@ -148,27 +148,28 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
-    backgroundColor: '#f4f4f9',
+    backgroundColor: '#6a0dad', // Fondo morado
   },
   form: {
     backgroundColor: 'white',
     padding: '40px',
-    borderRadius: '8px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    width: '300px',
+    borderRadius: '10px',
+    boxShadow: '0 6px 12px rgba(0, 0, 0, 0.15)',
+    width: '320px',
     textAlign: 'center',
   },
   heading: {
     fontSize: '2rem',
-    color: '#4CAF50',
+    color: '#ffffff', // Blanco para contraste con el fondo morado
     marginBottom: '20px',
+    fontWeight: 'bold',
   },
   input: {
     width: '100%',
-    padding: '10px',
+    padding: '12px',
     marginBottom: '15px',
-    border: '1px solid #ddd',
-    borderRadius: '5px',
+    border: '1px solid #bbb',
+    borderRadius: '6px',
     fontSize: '1rem',
     outline: 'none',
     transition: 'border-color 0.3s',
@@ -176,18 +177,20 @@ const styles = {
   button: {
     width: '100%',
     padding: '12px',
-    backgroundColor: '#4CAF50',
-    color: 'white',
+    backgroundColor: '#c82284', // 
+    color: 'black',
     border: 'none',
-    borderRadius: '5px',
+    borderRadius: '6px',
     fontSize: '1.2rem',
+    fontWeight: 'bold',
     cursor: 'pointer',
     transition: 'background-color 0.3s ease',
   },
   error: {
-    color: '#f44336',
+    color: '#ff4444',
     marginBottom: '10px',
   },
 };
+
 
 export default Register;
