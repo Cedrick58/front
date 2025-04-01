@@ -184,7 +184,7 @@ self.addEventListener("push", (event) => {
 
   let options={
       body:event.data.text(),
-       body: "Hola, cómo estás?",
+       body: "Hi. ¿Where she goes?",
       image: "./icons/Cute.jpg",
   }
   
