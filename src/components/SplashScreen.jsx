@@ -17,7 +17,7 @@ const SplashScreen = ({ onLoaded }) => {
 
   return (
     <div className={`splash-screen ${isVisible ? 'visible' : ''}`}>
-      <h1>Bienvenido :D</h1>
+      <h1>Bienvenido a mi PWA :D</h1>
       <p>Carganding...</p>
     </div>
   );

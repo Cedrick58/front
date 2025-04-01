@@ -19,6 +19,7 @@ const HomePage = () => {
 // Estilos en línea
 const styles = {
   container: {
+    fontFamily: "'Poppins', sans-serif",
     textAlign: 'center',
     padding: '50px',
     backgroundColor: '#bc1bcb', // Fondo morado

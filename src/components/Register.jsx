@@ -166,11 +166,11 @@ const styles = {
   },
   input: {
     width: '100%',
-    padding: '10px',
+    padding: '12px',
     marginBottom: '15px',
     border: '1px solid #bbb',
     borderRadius: '6px',
-    fontSize: '1rem',
+    fontSize: '1.2rem',
     outline: 'none',
     transition: 'border-color 0.3s',
   },
