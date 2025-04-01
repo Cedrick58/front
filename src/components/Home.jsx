@@ -7,13 +7,13 @@ const HomePage = () => {
     <div style={styles.container}>
       <h1 style={styles.heading}>Welcome to Homepage</h1>
       <p style={styles.description}>Inicia sesión o Regístrate para continuar.</p>
-      
+
+      {/* Imagen arriba de los botones */}
+      <img src="/icons/Dark.jpg" alt="Descripción" style={styles.image} />
+
       <div style={styles.buttonContainer}>
         <Link to="/login" style={styles.button}>Iniciar sesión</Link>
         <Link to="/register" style={styles.button}>Registrarse</Link>
-        <img src="/public/icons/Dark.jpg" alt="Descripción" />
-
-
       </div>
     </div>
   );
@@ -31,21 +31,21 @@ const styles = {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    boxSizing: 'border-box', 
-    backgroundImage: "url('public/icons/Dark.jpg')", // Ruta de la imagen
-    backgroundSize: 'cover', // Ajusta la imagen al tamaño del contenedor
-    backgroundPosition: 'center', // Centra la imagen
+    boxSizing: 'border-box',
+    backgroundImage: "url('/icons/Dark.jpg')", // Imagen de fondo (corregida)
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
   },
   heading: {
     fontSize: '2.5rem',
-    color: '#ffffff', // Blanco para contraste con el fondo morado
+    color: '#ffffff',
     marginBottom: '20px',
     fontWeight: 'bold',
   },
   description: {
     fontSize: '1.2rem',
-    color: '#ddd', // Color más claro para mejor visibilidad
+    color: '#ddd',
     marginBottom: '30px',
   },
   buttonContainer: {
@@ -53,7 +53,7 @@ const styles = {
     gap: '20px',
   },
   button: {
-    backgroundColor: '#c82284', 
+    backgroundColor: '#c82284',
     color: 'black',
     padding: '15px 25px',
     textDecoration: 'none',
@@ -63,10 +63,10 @@ const styles = {
     transition: 'background-color 0.3s ease',
   },
   image: {
-    width: '200px', // Ajusta el tamaño
-    height: 'auto', // Mantiene la proporción
-    marginBottom: '20px', // Espacio debajo de la imagen
-    borderRadius: '10px', // Bordes redondeados opcionales
+    width: '200px',
+    height: 'auto',
+    marginBottom: '20px',
+    borderRadius: '10px',
   },
 };
 
