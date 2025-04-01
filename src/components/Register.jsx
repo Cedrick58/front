@@ -152,7 +152,7 @@ const styles = {
   },
   form: {
     backgroundColor: 'black',
-    padding: '50px',
+    padding: '40px',
     borderRadius: '10px',
     boxShadow: '0 6px 12px rgba(0, 0, 0, 0.15)',
     width: '320px',
@@ -166,7 +166,7 @@ const styles = {
   },
   input: {
     width: '100%',
-    padding: '15px',
+    padding: '12px',
     marginBottom: '15px',
     border: '1px solid #bbb',
     borderRadius: '6px',
@@ -177,7 +177,7 @@ const styles = {
   button: {
     width: '100%',
     padding: '12px',
-    backgroundColor: '#c82284', // 
+    backgroundColor: '#c82284', 
     color: 'black',
     border: 'none',
     borderRadius: '6px',
