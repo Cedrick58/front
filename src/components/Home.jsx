@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Bienvenido a la Página Principal</h1>
-      <p style={styles.description}>¡Gracias por visitar nuestra aplicación! Elige una opción para continuar.</p>
+      <h1 style={styles.heading}>Welcome to Homepage</h1>
+      <p style={styles.description}>Inicia sesión o Regístrate para continuar.</p>
       
       <div style={styles.buttonContainer}>
         <Link to="/login" style={styles.button}>Iniciar sesión</Link>

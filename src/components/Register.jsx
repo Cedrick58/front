@@ -166,7 +166,7 @@ const styles = {
   },
   input: {
     width: '100%',
-    padding: '12px',
+    padding: '8px',
     marginBottom: '15px',
     border: '1px solid #bbb',
     borderRadius: '6px',
