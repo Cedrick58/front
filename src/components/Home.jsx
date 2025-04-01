@@ -21,7 +21,7 @@ const styles = {
   container: {
     textAlign: 'center',
     padding: '50px',
-    backgroundColor: '#6a0dad', // Fondo morado
+    backgroundColor: '#bc1bcb', // Fondo morado
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
@@ -45,7 +45,7 @@ const styles = {
     gap: '20px',
   },
   button: {
-    backgroundColor: '#ffcc00', // Amarillo para contraste
+    backgroundColor: '#c82284', 
     color: 'black',
     padding: '15px 25px',
     textDecoration: 'none',
