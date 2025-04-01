@@ -1,5 +1,5 @@
 {
-  "name": "SAO",
+  "name": "Cedrick",
   "short_name": "pwa",
   "start_url": "/",
   "display": "standalone",
@@ -8,14 +8,14 @@
   "description": "Esta es una aplicación web progresiva (PWA) para enviar notificaciones.",
   "icons": [
     {
-      "src": "/icons/sao_3.png",
+      "src": "/icons/Dark.jpg",  
       "sizes": "92x92",
-      "type": "image/png"
+      "type": "image/jpg"
     },
     {
-      "src": "/icons/sao_2.png",
+      "src": "/icons/Darks.jpg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/jng"
     }
   ],
   "screenshots": [
