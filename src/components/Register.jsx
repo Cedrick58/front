@@ -148,11 +148,11 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
-    backgroundColor: '#6a0dad', // Fondo morado
+    backgroundColor: '#bc1bcb', // Fondo morado
   },
   form: {
-    backgroundColor: 'white',
-    padding: '40px',
+    backgroundColor: 'black',
+    padding: '50px',
     borderRadius: '10px',
     boxShadow: '0 6px 12px rgba(0, 0, 0, 0.15)',
     width: '320px',
@@ -166,7 +166,7 @@ const styles = {
   },
   input: {
     width: '100%',
-    padding: '12px',
+    padding: '15px',
     marginBottom: '15px',
     border: '1px solid #bbb',
     borderRadius: '6px',

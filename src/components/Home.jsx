@@ -21,7 +21,7 @@ const styles = {
   container: {
     textAlign: 'center',
     padding: '50px',
-    backgroundColor: '#f4f4f9',
+    backgroundColor: '#6a0dad', // Fondo morado
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
@@ -31,12 +31,13 @@ const styles = {
   },
   heading: {
     fontSize: '2.5rem',
-    color: '#4CAF50',
+    color: '#ffffff', // Blanco para contraste con el fondo morado
     marginBottom: '20px',
+    fontWeight: 'bold',
   },
   description: {
     fontSize: '1.2rem',
-    color: '#555',
+    color: '#ddd', // Color más claro para mejor visibilidad
     marginBottom: '30px',
   },
   buttonContainer: {
@@ -44,12 +45,13 @@ const styles = {
     gap: '20px',
   },
   button: {
-    backgroundColor: '#4CAF50',
-    color: 'white',
+    backgroundColor: '#ffcc00', // Amarillo para contraste
+    color: 'black',
     padding: '15px 25px',
     textDecoration: 'none',
-    borderRadius: '5px',
+    borderRadius: '8px',
     fontSize: '1rem',
+    fontWeight: 'bold',
     transition: 'background-color 0.3s ease',
   },
 };

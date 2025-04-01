@@ -1,5 +1,5 @@
 .page-container {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Fill;
     padding: 20px;
   }
   
@@ -9,7 +9,7 @@
   }
   
   .button {
-    background-color: #ff6d00;
+    background-color: #ff00bb;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -20,7 +20,7 @@
   }
   
   .button:hover {
-    background-color: #e65c00;
+    background-color: #b611b9;
   }
   
   .user-table {
@@ -40,7 +40,7 @@
   }
   
   .send-message-btn {
-    background-color: #4CAF50;
+    background-color: #9d11a9;
     color: white;
     padding: 8px 16px;
     border-radius: 5px;
@@ -48,7 +48,7 @@
   }
   
   .send-message-btn:hover {
-    background-color: #45a049;
+    background-color: #a11c8f;
   }
   
   .modal {
@@ -85,7 +85,7 @@
   }
   
   .close-btn, .send-btn {
-    background-color: #ff6d00;
+    background-color: #951684;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -94,6 +94,6 @@
   }
   
   .close-btn:hover, .send-btn:hover {
-    background-color: #e65c00;
+    background-color: #8e1363;
   }
   
