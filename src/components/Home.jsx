@@ -29,6 +29,10 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     boxSizing: 'border-box', 
+    backgroundImage: "url('public/icons/Dark.jpg')", // Ruta de la imagen
+    backgroundSize: 'cover', // Ajusta la imagen al tamaño del contenedor
+    backgroundPosition: 'center', // Centra la imagen
+    backgroundRepeat: 'no-repeat',
   },
   heading: {
     fontSize: '2.5rem',
