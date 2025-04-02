@@ -77,7 +77,7 @@ const Register = () => {
             navigator.serviceWorker.ready.then((registration) => {
               console.log("Intentando registrar la sincronización...");
               registration.sync.register("syncUsuarios");
-              self.registration.sync.register("sync"); // Nueva función añadida aquí
+              self.registration.sync.register("sync"); 
             }).then(() => {
               console.log("✅ Sincronización registrada con éxito");
             }).catch((err) => {
